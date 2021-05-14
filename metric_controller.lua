@@ -89,8 +89,8 @@ minetest.register_node("monitoring_digilines:metric_controller", {
 					if metric then
 						digiline:receptor_send(pos, digiline.rules.default, channel, metric)
 					end
-					end
 				end
+			end
 		}
 	}
 })
